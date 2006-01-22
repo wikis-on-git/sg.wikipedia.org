@@ -6,9 +6,9 @@
 '''Gä nzönî na ndö tî lêndo tî Wikipedia na yângâ tî ködörö tî Bêafrîka !  
 |- bgcolor="#f4fff4" style="border-style:solid;border-width:1px;padding:1em;padding-top:0;"
 |
+|}
 
-Number of articles: {{NUMBEROFARTICLES}}
-
+----
 <center><font size="4">This subdomain is reserved for the creation of a Wikipedia in the '''[[:en:Sango_(language)|Sängö]]''' language.</font> </center>
 <center><font size="3">''If you speak this language and think it would be cool to have your own Encyclopedia on the Internet then '''you''' can make it.<br> Go ahead and start working on your Encyclopedia.</font>''</center>
 
@@ -43,7 +43,7 @@ Number of articles: {{NUMBEROFARTICLES}}
 <center>[http://www.wikipedia.org Weitere Informationen befinden sich auf der Hauptseite]</center>
 
 ----
-
+Number of articles: {{NUMBEROFARTICLES}}
 
 
 
