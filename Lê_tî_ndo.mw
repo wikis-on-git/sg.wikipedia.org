@@ -10,7 +10,7 @@
 
 
 ----
-Number of articles: {{NUMBEROFARTICLES}}
+Number des articles: {{NUMBEROFARTICLES}}
 
 [[Bêafrîka]], [[Bangî]]
 [[Kamerün]]
@@ -37,7 +37,7 @@ Number of articles: {{NUMBEROFARTICLES}}
 
 {| width="100%" cellspacing="0" cellpadding="5" style="border:1px solid #996600;" 
 |-
-! bgcolor="#ECE5CA" style="border-bottom:1px solid #996600; font: 125% Verdana; color:black" |Encyclopedia
+! bgcolor="#ECE5CA" style="border-bottom:1px solid #996600; font: 125% Verdana; color:black" |Encyclopedie
 |- 
 | bgcolor="#FAF9EC" style="font: 95% Verdana;"|
 {{WikipediaTOC}}
