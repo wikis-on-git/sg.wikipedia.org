@@ -1,3 +1,4 @@
+{{Lännerkëscht
 |Irri tî koddoro nî=Lýðveldið Ísland
 |FändelFichier=Flag_of_Iceland.svg
 |WopeFichier=ISLcoat.gif
@@ -24,33 +25,3 @@
 |Internet TLD=is
 |Tel=+354
 }}
-
-{{Entête tableau pays |
-nom_local=Lýðveldið Ísland |
-image_drapeau=Flag of Iceland.svg |
-lien_drapeau=Drapeau de l'Islande |
-image_blason=Iceland coa.gif|
-lien_blason=Blason |
-image_carte=Europe_location_ISL.png |
-devise= La Nation est construite sur la loi |
-}}
-{{langue officielle pays|[[Islandais]]}}
-{{villes pays|capitale=[[Reykjavík]]|coordonnées_capitale=64° 15' N, 21° 95' O|
-lien_villes=Villes d'Islande|titre_plus_grande_ville=Plus grande ville|plus_grande_ville=[[Reykjavík]]}}
-|- valign="top"
-| '''[[Président]]'''
-| [[Ólafur Ragnar Grímsson]]
-|- valign="top"
-| '''[[Premier ministre]]'''
-| [[Geir Haarde]]
-<!-- ces donnée sont ou vont être gérée par un bot, veillez donc ne pas les modifier, plus d'informations sur Wikipédia:Projet, Pays du monde/Bot -->
-{{statistiques pays|superficie_rang=105|superficie_totale=103 125|pourcentage_eau=2,7%|
-population_rang=169|population_totale=293 291|population_année=2005|densité=2,84}}
-{{indépendance pays|pays_indépendance=Du [[Danemark]]|type_indépendance=Date|date_indépendance=[[17 juin]] [[1944]]}}
-{{gentilé pays|Islandais}}
-{{monnaie pays|monnaie=[[couronne islandaise|Króna ]]|code_monnaie=ISK}}
-{{fuseau horaire pays|}}
-{{hymne national pays|[[Lofsöngur]]}}
-{{domaine internet pays|.is}}
-{{indicatif téléphonique pays|354}}
-|}
