@@ -1,1 +1,96 @@
-{{article}}
+== Wïkïpêdïyäa na Sängö ==
+{| cellspacing=3
+|- valign="top"
+|width="85%"|
+'''Gä nzönî na ndö tî lêndo tî Wïkïpêdïyäa na yângâ tî ködörö tî [[Bêafrîka]] !  
+|- bgcolor="#f4fff4" style="border-style:solid;border-width:1px;padding:1em;padding-top:0;"
+|
+|}
+
+{| width="60%" style="border:1px solid black"
+|
+<inputbox>
+type=create
+width=45
+</inputbox>
+|}
+
+----
+Wïkïpêdïyäa na Sängö contient à ce jour '''[[Special:Statistics|{{NUMBEROFARTICLES}}]]''' '''[[Special:AllPages|articles]]''' ; '''[[Special:ListUsers|{{NUMBEROFUSERS}}]]''' utilisateurs se sont enregistrés.
+
+{| width="100%" cellspacing="0" cellpadding="5" style="border:1px solid #996600;" 
+|-
+! bgcolor="#ECE5CA" style="border-bottom:1px solid #996600; font: 125% Verdana; color:black" |Encyclopédie
+|- 
+| bgcolor="#FAF9EC" style="font: 95% Verdana;"|
+{{WikipediaTOC}}
+<div style="float: right"><small>[{{SERVER}}{{localurl:Template:WikipediaTOC|action=edit}} Edit]</small></div></td>
+|}
+
+{| width="100%" cellspacing="0" cellpadding="5" style="border:1px solid #006699;" 
+|-
+! bgcolor="#D0E2EE" style="border-bottom:1px solid #006699; font: 125% Verdana; color:black" |Wikipedia in other languages/Autres langues
+|-
+|  bgcolor="#FFFFFF" style="font: 95% Verdana;" align="left" |
+{{WikipediaLang}}
+<div style="float: right"><small>[{{SERVER}}{{localurl:Template:WikipediaLang|action=edit}} Edit]</small></div>
+|}
+
+{| width="100%" cellspacing="0" cellpadding="5" style="border:1px solid #006699;" 
+|-
+! bgcolor="#D0E2EE" style="border-bottom:1px solid #006699; font: 125% Verdana; color:black" |Sister projects/Projets frères
+|-
+| bgcolor="#FFFFFF" style="font: 95% Verdana;" align="left" |{{Wikipediasister}}
+|}
+
+__NOTOC__
+__NOEDITSECTION__
+
+
+[[ar:]]
+[[az:]]
+[[bg:]]
+[[ca:]]
+[[ceb:]]
+[[cs:]]
+[[da:]]
+[[de:]]
+[[et:]]
+[[el:]]
+[[en:]]
+[[es:]]
+[[eo:]]
+[[fa:]]
+[[fr:]]
+[[gl:]]
+[[ko:]]
+[[he:]]
+[[hr:]]
+[[io:]]
+[[id:]]
+[[is:]]
+[[it:]]
+[[kk:]]
+[[lv:]]
+[[lt:]]
+[[lg:]]
+[[hu:]]
+[[ms:]]
+[[nah:]]
+[[nl:]]
+[[ja:]]
+[[no:]]
+[[nn:]]
+[[pl:]]
+[[pt:]]
+[[ro:]]
+[[ru:]]
+[[sk:]]
+[[sl:]]
+[[sr:]]
+[[fi:]]
+[[sv:]]
+[[th:]]
+[[tr:]]
+[[uk:]]
+[[zh:]]
