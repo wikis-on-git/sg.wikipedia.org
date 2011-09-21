@@ -1,0 +1,11 @@
+{{Sister
+|project = wiktionary
+|1 = {{{code}}}:{{{page|Main Page}}}
+|text = '''''[[:wikt:{{{code}}}:{{{page|Main Page}}}|{{{1|{{PAGENAME}}}}} edition]]''''' tî [[Wïkïtënëbûku]], tënëbûku na sängö
+}}<noinclude>{{Documentation|content=
+==See also==
+*[[Template:InterWiki]] (for similarly linking to Wikipedias)
+[[Category:Interwiki link templates|Wiktionarylang]]
+[[tr:Şablon:Vikisözlük bağlantısı]]
+[[zh:Template:Wiktionarylang]]
+}}</noinclude>
