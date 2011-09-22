@@ -1,0 +1,39 @@
+<includeonly>{{#tag:imagemap
+|Immagine:{{#if:{{{2|}}}|{{{2|}}}|{{{immagine|Transparent.gif}}}}}{{!}}{{{3|{{{dimensione|50x50px}}}}}}{{!}}{{{4|{{{posizione|left}}}}}}
+default [{{#if:{{{url|}}}
+         |{{{url}}} {{{etichetta|{{{url}}}}}}
+         |[:{{#if:{{{1|}}}|{{{1|}}}|{{{link|Immagine:{{#if:{{{2|}}}|{{{2|}}}|{{{immagine|Transparent.gif}}}}}}}}}}{{!}}{{{5|{{{etichetta|}}}}}}]
+         }}]
+desc {{{6|{{{desc|none}}}}}}
+}}</includeonly><noinclude>{{Template obsoleto}}
+{{esoteric}}
+{{man}}
+
+[[Categoria:Template strumenti di layout immagini|Clic]]
+
+[[af:Sjabloon:Click]]
+[[am:መልጠፊያ:Click]]
+[[ar:قالب:نقر]]
+[[ast:Plantía:Clic]]
+[[ca:Plantilla:Clic]]
+[[ceb:Plantilya:Click]]
+[[da:Skabelon:Klik]]
+[[en:Template:Click]]
+[[eo:Ŝablono:Click]]
+[[eu:Txantiloi:Lotura iruditik]]
+[[fi:Malline:Kuvalinkki]]
+[[fr:Modèle:Lien sur icône]]
+[[is:Snið:Smella]]
+[[ja:Template:Click]]
+[[li:Sjabloon:Klik]]
+[[lo:ແມ່ແບບ:Click]]
+[[ml:ഫലകം:ഞെക്ക്]]
+[[mwl:Modelo:Click]]
+[[na:Template:Click]]
+[[pt:Predefinição:Click]]
+[[th:แม่แบบ:คลิก]]
+[[tr:Şablon:Tıkla]]
+[[vi:Tiêu bản:Hình tượng]]
+[[zh:Template:Click]]
+[[zh-yue:Template:㩒]]
+</noinclude>
