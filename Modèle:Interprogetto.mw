@@ -1,0 +1,163 @@
+<noinclude>{{templateprotetto}}</noinclude><includeonly><!--
+
+// PRIMA SEZIONE DEL TEMPLATE ---- COLLEGAMENTI NELLA BARRA DI SINISTRA //
+
+// Prima parte: apertura del tag div id="interProject" (vedi [[Mediawiki:monobook.js]])
+
+-->{{#if: {{{notizia|}}} ||<div id="interProject" style="display:none; clear: both; border-top: 2px dotted #AAAAAA; margin-top: 2em;"><div title="Collegamenti verso gli altri progetti Wikimedia">}}<!--
+
+// Seconda parte: se esiste un parametro che ha il nome di uno dei prefissi accettati, richiama il template /collegamento (che aggiunge il collegamento come contenuto del tag div aperto qui sopra)
+
+(nota: ho usato i codici di commento per separare le varie istruzioni nel codice con un ritorno a capo, in modo da renderlo più facile da leggere) 
+
+(se vuoi aggiungere nuovi prefissi ricorda che vanno aggiunti qui, alla sezione 2.1 e ai sottotemplate /Box e /leggiParamentro)
+
+-->{{#if: {{{wikisource|}}} |{{Interprogetto/Collegamento|wikisource:{{{wikisource|}}}|Wikisource}}|}}<!--
+-->{{#if: {{{s|}}} |{{Interprogetto/Collegamento|s:{{{s|}}}|Wikisource}}|}}<!--
+-->{{#if: {{{wikiquote|}}} |{{Interprogetto/Collegamento|wikiquote:{{{wikiquote|}}}|Wikiquote}}|}}<!--
+-->{{#if: {{{q|}}} |{{Interprogetto/Collegamento|q:{{{q|}}}|Wikiquote}}|}}<!--
+-->{{#if: {{{b|}}} |{{Interprogetto/Collegamento|b:{{{b|}}}|Wikibooks}}|}}<!--
+-->{{#if: {{{wikibooks|}}} |{{Interprogetto/Collegamento|wikibooks:{{{wikibooks|}}}|Wikibooks}}|}}<!--
+-->{{#if: {{{commons|}}} |{{Interprogetto/Collegamento|commons:{{{commons|}}}|Commons}}|}}<!--
+-->{{#if: {{{wikispecies|}}} |{{Interprogetto/Collegamento|wikispecies:{{{wikispecies|}}}|Wikispecies}}|}}<!--
+-->{{#if: {{{n|}}} |{{Interprogetto/Collegamento|n:{{{n|}}}|Wikinotizie}}|}}<!--
+-->{{#if: {{{wikinews|}}} |{{Interprogetto/Collegamento|wikinews:{{{wikinews|}}}|Wikinotizie}}|}}<!--
+(per il prefisso notizia non è necessario, in quanto non inserisce i collegamenti a sinistra)
+-->{{#if: {{{v|}}} |{{Interprogetto/Collegamento|v:{{{v|}}}|Wikiversità}}|}}<!--
+-->{{#if: {{{m|}}} |{{Interprogetto/Collegamento|m:{{{m|}}}|Meta}}|}}<!--
+-->{{#if: {{{meta|}}} |{{Interprogetto/Collegamento|meta:{{{meta|}}}|Meta}}|}}<!--
+-->{{#if: {{{wikt|}}} |{{Interprogetto/Collegamento|wikt:{{{wikt|}}}|Wikizionario}}|}}<!--
+-->{{#if: {{{wiktionary|}}} |{{Interprogetto/Collegamento|wiktionary:{{{wiktionary|}}}|Wikizionario}}|}}<!--
+-->{{#if: {{{ricetta|}}} |{{Interprogetto/Collegamento|b:Libro di cucina/Ricette/{{{ricetta|}}}|Ricetta}}<br />(Wikibooks)|}}<!--
+-->{{#if: {{{testo|}}} |{{Interprogetto/Collegamento|s:{{{testo|}}}|Testo completo}}<br />(Wikisource)|}}<!--
+-->{{#if: {{{incubator|}}} |{{Interprogetto/Collegamento|incubator:{{{incubator|}}}|Wikimedia Incubator}}|}}<!--
+
+Nota: i seguenti due codici sono da usare su progetti diversi da Wikipedia (togliere il codice di commento prima di "{{#if:" e dopo "Wikipedia}}|}}" (ricordarsi di fare lo stesso nella sezione 2.1 e nei sottotemplate /Box e /leggiParametro):
+
+--><!--{{#if: {{{w|}}} |{{Interprogetto/Collegamento|w:{{{w|}}}|Wikipedia}}|}}--><!--
+--><!--{{#if: {{{wikipedia|}}} |{{Interprogetto/Collegamento|wikipedia:{{{w|}}}|Wikipedia}}|}}--><!--
+
+// Terza parte: controlla i primi 20 parametri passati al template, per vedere se uno di questi ha il nome di uno dei prefissi accettati. Se lo è richiama /Collegamento. Il tutto è effettuato dal sottotemplate /leggiParametro. 
+
+-->{{Interprogetto/leggiParametro|{{{1|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{2|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{3|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{4|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{5|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{6|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{7|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{8|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{9|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{10|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{11|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{12|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{13|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{14|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{15|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{16|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{17|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{18|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{19|}}}}}<!--
+-->{{Interprogetto/leggiParametro|{{{20|}}}}}<!--
+
+// Quarta parte: chiude i tag /div aperti nella prima parte
+
+-->{{#if: {{{notizia|}}} ||</div></div>}}<!--
+
+// SECONDA SEZIONE DEL TEMPLATE ---- COLLEGAMENTI NEL TESTO DELLA VOCE //
+
+// Prima parte: controlla la presenza di un parametro che ha il nome di uno dei prefissi accettati. In caso positivo SE NON E' PRESENTE IL TESTO NOLINK come primo parametro, aggiunge una scritta nella voce, richiamando il template Interprogetto/Box. 
+
+(nota: ho usato i codici di commento per separare le varie istruzioni nel codice con un ritorno a capo, in modo da renderlo più facile da leggere) 
+
+(se vuoi aggiungere nuovi prefissi ricorda che vanno aggiunti qui, alla sezione 1.2 e ai sottotemplate /Box e /leggiParamentro)
+
+-->{{#if:{{{wikisource|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=wikisource|collegamento={{{wikisource}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{wikisource_oggetto|}}}|{{{wikisource_preposizione|}}}|{{{wikisource_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{s|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=s|collegamento={{{s}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{s_oggetto|}}}|{{{s_preposizione|}}}|{{{s_etichetta|}}}|{{{s_lingua|}}}}}}}}}<!--
+
+-->{{#if:{{{s2|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=s2|collegamento={{{s2}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{s2_oggetto|}}}|{{{s2_preposizione|}}}|{{{s2_etichetta|}}}|{{{s2_lingua|}}}}}}}}}<!--
+
+-->{{#if:{{{wikiquote|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=wikiquote|collegamento={{{wikiquote}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{q_oggetto|}}}|{{{q_preposizione|}}}|{{{q_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{q|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=q|collegamento={{{q}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{q_oggetto|}}}|{{{q_preposizione|}}}|{{{q_etichetta|}}}|{{{q_lingua|}}}}}}}}}<!--
+
+-->{{#if:{{{q2|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=q2|collegamento={{{q2}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{q2_oggetto|}}}|{{{q2_preposizione|}}}|{{{q2_etichetta|}}}|{{{q2_lingua|}}}}}}}}}<!--
+
+-->{{#if:{{{wikibooks|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=wikibooks|collegamento={{{wikibooks}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{wikibooks_oggetto|}}}|{{{wikibooks_preposizione|}}}|{{{wikibooks_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{b|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=b|collegamento={{{b}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{b_oggetto|}}}|{{{b_preposizione|}}}|{{{b_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{commons|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=commons|collegamento={{{commons}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{commons_oggetto|}}}|{{{commons_preposizione|}}}|{{{commons_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{wikispecies|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=wikispecies|collegamento={{{wikispecies}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{wikispecies_oggetto|}}}|{{{wikispecies_preposizione|}}}|{{{wikispecies_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{n|}}}|{{#switch: {{{1}}}|nolink=|{{Interprogetto/Box|progetto=n|collegamento={{{n}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{n_oggetto|}}}|{{{n_preposizione|}}}|{{{n_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{wikinews|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=wikinews|collegamento={{{wikinews}}}|etichetta={{{etichetta|{{PAGENAME}}}}}}|{{{wikinews_oggetto|}}}|{{{wikinews_preposizione|}}}|{{{wikinews_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{v|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=v|collegamento={{{v}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{v_oggetto|}}}|{{{v_preposizione|}}}|{{{v_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{m|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=m|collegamento={{{m}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{m_oggetto|}}}|{{{m_preposizione|}}}|{{{m_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{meta|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=m|collegamento={{{meta}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{meta_oggetto|}}}|{{{meta_preposizione|}}}|{{{meta_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{wikt|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=wikt|collegamento={{{wikt}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{wikt_oggetto|}}}|{{{wikt_preposizione|}}}|{{{wikt_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{wiktionary|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=wikt|collegamento={{{wiktionary}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{wiktionary_oggetto|}}}|{{{wiktionary_preposizione|}}}|{{{wiktionary_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{ricetta|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=ricetta|collegamento={{{ricetta}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{ricetta_oggetto|}}}|{{{ricetta_preposizione|}}}|{{{ricetta_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{testo|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=testo|collegamento={{{testo}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{testo_oggetto|}}}|{{{testo_preposizione|}}}|{{{testo_etichetta|}}}}}}}}}<!--
+
+-->{{#if:{{{notizia|}}}|{{#switch: {{{1}}}|nolink=|{{Interprogetto/Box|progetto=notizia|collegamento={{{notizia}}}|{{{data|}}}}}}}}}<!--
+
+-->{{#if:{{{incubator|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=incubator|collegamento={{{incubator}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{incubator_oggetto|}}}|{{{incubator_preposizione|}}}|{{{incubator_etichetta|}}}}}}}}}<!--
+
+Nota: i seguenti due prefissi sono da decommentare per collegare a Wikipedia da altri progetti:
+--><!--{{#if:{{{wikipedia|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=wikipedia|collegamento={{{wikipedia}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{wikipedia_oggetto|}}}|{{{wikipedia_preposizione|}}}|{{{wikipedia_etichetta|}}}}}}}}}--><!--
+--><!--{{#if:{{{w|}}}|{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto=w|collegamento={{{w}}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{w_oggetto|}}}|{{{w_preposizione|}}}|{{{w_etichetta|}}}}}}}}}--><!--
+
+// Seconda parte: controlla anche i parametri di default 1 -> 20 allo stesso modo di quanto fatto nella prima parte
+
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{1}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{1}}}_oggetto|}}}|{{{{{{1}}}_preposizione|}}}|{{{{{{1}}}_etichetta|}}}|{{{{{{1}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{2}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{2}}}_oggetto|}}}|{{{{{{2}}}_preposizione|}}}|{{{{{{2}}}_etichetta|}}}|{{{{{{2}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{3}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{3}}}_oggetto|}}}|{{{{{{3}}}_preposizione|}}}|{{{{{{3}}}_etichetta|}}}|{{{{{{3}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{4}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{4}}}_oggetto|}}}|{{{{{{4}}}_preposizione|}}}|{{{{{{4}}}_etichetta|}}}|{{{{{{4}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{5}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{5}}}_oggetto|}}}|{{{{{{5}}}_preposizione|}}}|{{{{{{5}}}_etichetta|}}}|{{{{{{5}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{6}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{6}}}_oggetto|}}}|{{{{{{6}}}_preposizione|}}}|{{{{{{6}}}_etichetta|}}}|{{{{{{6}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{7}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{7}}}_oggetto|}}}|{{{{{{7}}}_preposizione|}}}|{{{{{{7}}}_etichetta|}}}|{{{{{{7}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{8}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{8}}}_oggetto|}}}|{{{{{{8}}}_preposizione|}}}|{{{{{{8}}}_etichetta|}}}|{{{{{{8}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{9}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{9}}}_oggetto|}}}|{{{{{{9}}}_preposizione|}}}|{{{{{{9}}}_etichetta|}}}|{{{{{{9}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{10}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{10}}}_oggetto|}}}|{{{{{{10}}}_preposizione|}}}|{{{{{{10}}}_etichetta|}}}|{{{{{{10}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{11}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{11}}}_oggetto|}}}|{{{{{{11}}}_preposizione|}}}|{{{{{{11}}}_etichetta|}}}|{{{{{{11}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{12}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{12}}}_oggetto|}}}|{{{{{{12}}}_preposizione|}}}|{{{{{{12}}}_etichetta|}}}|{{{{{{12}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{13}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{13}}}_oggetto|}}}|{{{{{{13}}}_preposizione|}}}|{{{{{{13}}}_etichetta|}}}|{{{{{{13}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{14}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{14}}}_oggetto|}}}|{{{{{{14}}}_preposizione|}}}|{{{{{{14}}}_etichetta|}}}|{{{{{{14}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{15}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{15}}}_oggetto|}}}|{{{{{{15}}}_preposizione|}}}|{{{{{{15}}}_etichetta|}}}|{{{{{{15}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{16}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{16}}}_oggetto|}}}|{{{{{{16}}}_preposizione|}}}|{{{{{{16}}}_etichetta|}}}|{{{{{{16}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{17}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{17}}}_oggetto|}}}|{{{{{{17}}}_preposizione|}}}|{{{{{{17}}}_etichetta|}}}|{{{{{{17}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{18}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{18}}}_oggetto|}}}|{{{{{{18}}}_preposizione|}}}|{{{{{{18}}}_etichetta|}}}|{{{{{{18}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{19}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{19}}}_oggetto|}}}|{{{{{{19}}}_preposizione|}}}|{{{{{{19}}}_etichetta|}}}|{{{{{{19}}}_lingua|}}}}}}}<!--
+-->{{#switch:{{{1}}}|nolink=|{{Interprogetto/Box|progetto={{{20}}}|collegamento={{FULLPAGENAME}}|etichetta={{{etichetta|{{PAGENAME}}}}}|{{{{{{20}}}_oggetto|}}}|{{{{{{20}}}_preposizione|}}}|{{{{{{20}}}_etichetta|}}}|{{{{{{20}}}_lingua|}}}}}}}<!--
+
+// FINE DEL CODICE DEL TEMPLATE //
+
+--></includeonly><noinclude><!--
+
+// INIZIO DELLA GUIDA //
+// AGGIORNARE LA DOCUMENTAZIONE DEL CODICE IN AIUTO:INTERPROGETTO SE SI EFFETTUANO MODIFICHE
+
+-->{{esoteric}}
+
+{{man}}
+
+{{interprogetto|nolink|s}}
+
+[[Categoria:Template wikimedia|{{PAGENAME}}]]
+
+[[eo:Ŝablono:Projekto]]
+[[fr:Modèle:Autres projets]]
+[[pt:Predefinição:Correlato]]
+[[en:Category:Interwiki_link_templates]]
+</noinclude>
