@@ -1,0 +1,12 @@
+<includeonly><div class="thumb {{#switch:{{{5}}}
+|left=<nowiki> </nowiki>tleft" style="
+|right=<nowiki> </nowiki>tright" style="
+|#default=<nowiki> </nowiki>tnone" style="margin-left: auto; margin-right:auto;
+}} width:{{{4|99%}}}; max-width:{{#expr:{{str sub|{{{2}}}|0|{{#expr:{{str find|{{{2}}}|px}} -1}}}} + 8}}px;">
+<div class="thumbinner"><div class="overflowbugx" style="overflow:auto;">[[File:{{{1}}}|{{{2}}}|alt={{{alt|}}}|{{#switch:{{{3}}}
+|thumb
+|thumbnail
+|frame
+|border={{{1}}}
+|#default={{{3|}}}}}]]</div>{{ #if: {{{3|}}}|<div class="thumbcaption">{{Magnify icon|link=File:{{{1}}} }}<!-- -->{{{3}}}</div>|}}
+</div></div></includeonly><noinclude>
