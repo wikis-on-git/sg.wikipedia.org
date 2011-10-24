@@ -92,6 +92,18 @@ Further technical information is available on its [[:ia:User:Synthebot|main page
 
 : Not done; a local bot flag is no longer needed. This is a [[m:bot policy|global bot]], and this wiki recently enabled global bots. —<small>[[m:User:Pathoschild|Pathoschild]] 02:31:12, 13 March 2009 (UTC)</small>
 
+=== [[User:HiW-Bot|HiW-Bot]] ===
+* Bot                            : [[User:HiW-Bot|HiW-Bot]]
+* Operator                       : [[:de:Benutzer:Hedwig in Washington|Hedwig in Washington]]
+* Automatic or Manually Assisted : automatic
+* Programming Language(s)        : Python (pywikipedia), daily update
+* Function Summary               : Interwiki
+* Already has a bot flag (Y/N)   : Yes, [http://toolserver.org/~vvv/sulutil.php?user=HiW-Bot please see here]
+* Function Details               : just using the standard interwiki.py
+
+I humbly request bot status on this wiki in order to maintain Interwiki.
+Thank you --[[Utilisateur:Hedwig in Washington|Hedwig in Washington]] 24 Ngberere 2011 à 20:16 (UTC)
+
 ==Betawiki: better support for your language in MediaWiki==
 Dear community. I am writing to you to promote a special wiki called [[betawiki:|Betawiki]]. This wiki facilitates the localisation (l10n) of the MediaWiki interface. You may have changed many messages here to use your language in the interface, but if you would log in to for example the Japanese language Wiktionary, you would not be able to use the interface as well translated as here. In fact, of 1,736 messages in the core of MediaWiki, 1.59% of the messages have been translated. Betawiki also supports the translation of messages for 126 extensions, with 2,174 messages. Many of them are used in WMF projects and they are vital for understanding the wiki. Currently 0.00% of the WMF extension messages have been translated. Translators for over 90 languages contribute their work to MediaWiki this way every month.
 
