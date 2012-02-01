@@ -447,3 +447,11 @@ Report any [http://labs.wikimedia.beta.wmflabs.org/wiki/Problem_reports problems
 
 '''Note''' that this cluster does have SUL but it is not integrated with SUL in production, so you'll need to create another account.  You should avoid using the same password as you use here.  — [[m:Global message delivery|Global message delivery]] 15 Nyenye 2012 à 16:32 (UTC)
 <!-- EdwardsBot 0145 -->
+
+==Language support group for Sango==
+The Wikimedia Foundation has brought together a new team of developers who are dedicated to language support. This team is to support all the languages and consequently it is not realistic to expect that the team members can provide proper support for your language. It is for this reason that we are looking for volunteers who will make up a [[:translatewiki:language support team|language support team]]. 
+
+This language support team will be asked to provide us with information about their language. Such information may need to be provided either to us or on a website that we will indicate to you. Another activity will be to test software that will likely have an effect on the running of the MediaWiki software. We are looking for people who clearly identify their ability. Formal knowledge is definitely appreciated.
+
+As much of the activity will be concentrated on [[:translatewiki:Main Page|translatewiki.net]], it will be a plus when team members know how to localise at translatewiki.net. <br>
+Thanks, [[Utilisateur:Gmeijssen|Gmeijssen]] 1 Fulundïgi 2012 à 21:04 (UTC)
