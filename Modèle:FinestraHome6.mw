@@ -1,0 +1,18 @@
+__NOEDITSECTION__<div style="margin-bottom:.5em"><div style="padding:0; border:1px solid #{{{border-color|ABCDEF}}}; background-color:#{{{content-color|F3FBFE}}}"><span {{#if:{{{logo|}}}||class="hiddenStructure noprint"}}>[File:{{{logo|Crystal Clear action bookmark.png}}}|{{{px|23px}}}|left|Logo della sezione {{{titolo}}}]]</span><h2 style="padding:.1em .6em; margin:0; font-size:130%; border-bottom:1px solid #{{{border-color|ABCDEF}}}; background-color:#{{{background-color|E3F6FF}}}">'''{{{titolo}}}'''</h2><span class="noprint" style="margin-top:-2em; padding:0 4px; float:right; font-size:80%" {{#if:{{{info|}}}{{{link|}}}||class="hiddenStructure noprint"}}><span style="color:#{{{font-color}}}"><span {{#if:{{{info|}}}||class="hiddenStructure noprint"}}>{{{info|}}} - </span>[http://it.wikipedia.org/w/index.php?title={{{link}}}&action=edit {{{modifica|modifica}}}]</span></span>
+<div style="margin-top:{{{padding|.5em}}}; padding:{{{padding|0 .8em .2em}}}; font-size:{{{font-size}}}; background-color:#{{{content-color|F3FBFE}}}">
+{{{contenuto}}}</div></div>
+<div style="background:#B2B2B2; height:1px; margin:0 0px; font-size:0">[[image:pix.gif|1px]]</div>
+<div style="border-left:1px solid #DFDFE0; border-right:1px solid #DFDFE0; background:#C7C7C7; height:1px; margin:0 0px; font-size:0">[[image:pix.gif|1px]]</div>
+<div style="border-left:1px solid #EDEDED; border-right:1px solid #EDEDED; background:#DFDFE0; height:1px; margin:0 1px; font-size:0">[[image:pix.gif|1px]]</div>
+<div style="background:#F2F2F3; height:1px; margin:0 2px; font-size:0">[[image:pix.gif|1px]]</div>
+<div style="background:#FCFCFC; height:1px; margin:0 5px; font-size:0">[[image:pix.gif|1px]]</div>
+</div><noinclude>
+
+Questo template è stato progettato espressamente per la Pagina Principale e '''se ne sconsiglia l'utilizzo altrove''' in quanto nel codice sono contenuti dei titoli di secondo livello e dei parametri incompatibili con le altre pagine di Wikipedia: _NOTOC_ e _NOEDITSECTION_
+
+[[Categoria:Template pagina principale]]
+
+[[it:Template:FinestraHome6]]
+[[ja:Template:影付コラム]]
+[[vi:Bản mẫu:FinestraHome6]]
+</noinclude>
