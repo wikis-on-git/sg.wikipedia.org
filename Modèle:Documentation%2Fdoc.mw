@@ -1,0 +1,81 @@
+{{documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+__NOTOC__
+This template automatically displays a documentation box like you are seeing now, of which the content is transcluded from another page. It is intended for pages which are [[Wikipedia:Transclusion|transcluded]] in other pages, i.e. templates, whether in the template namespace or not.  
+
+== Usage ==
+=== Normal /doc ===
+ &lt;noinclude&gt;&#123;&#123;{{{template-name|Documentation}}}&#125;&#125;&lt;/noinclude&gt;
+
+=== Any /doc page ===
+ &lt;noinclude&gt;&#123;&#123;{{{template-name|Documentation}}}|Template:any page/doc&#125;&#125;&lt;/noinclude&gt;
+
+=== In-line content ===
+ &lt;noinclude&gt;&#123;&#123;{{{template-name|Documentation}}}|content=This is documentation.&#125;&#125;&lt;/noinclude&gt;
+
+=== In-line content with [view][edit] links ===
+ &lt;noinclude&gt;&#123;&#123;{{{template-name|Documentation}}}
+ |1 = Template:any page/doc
+ |content =&#123;&#123;Template:any page/doc|parameters}}
+ }}&lt;/noinclude>
+
+=== Best practice ===
+This code should be added at the bottom of the template code, with no extra space before "<code>&lt;noinclude></code>" (which would cause extra space on pages where the template is used). The parameter can be used as shown above to transclude an arbitrary documentation page.
+
+Categories and interwiki links that apply to the template itself should be added to the documentation page, inside <code>&lt;includeonly> &lt;/includeonly></code> tags.  For more complex cases, see [[Wikipedia:Template documentation#Categories and interwiki links]].
+
+If the documentation page contains includeonly or noinclude tags as part of the documentation, replace the "<" with "&amp;lt;".
+
+=== Customizing display ===
+Overrides exist to customize the output in special cases:
+* <code>{&#123;documentation| '''heading''' = ...}}</code> − change the text of the "documentation" heading. If this is set to blank, the entire heading line (including the first [edit] link) will also disappear.
+
+== Functions ==
+If the documentation page doesn't exist, the "edit" link includes a [[mw:Manual:Creating pages with preloaded text|preload]] parameter so that clicking it will pre-fill the edit form with the basic documentation page format.
+
+== Rationale ==
+Use of this template allows templates to be [[Wikipedia:Protection policy|protected]] where necessary, while allowing anyone to edit the documentation, categories, and interwiki links.
+
+== See also ==
+{{Documentation/doc/see also}}
+
+<includeonly><!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Template documentation| ]]
+[[Category:Wikipedia formatting and function templates|{{PAGENAME}}]]
+
+[[simple:Template:Documentation]]
+[[ar:قالب:توثيق]]
+[[bg:Шаблон:Документация]]
+[[ca:Plantilla:Ús de la plantilla]]
+[[cs:Šablona:Dokumentace]]
+[[da:Skabelon:Dokumentation]]
+[[de:Vorlage:Dokumentation]]
+[[dsb:Pśedłoga:Dokumentacija]]
+[[eo:Ŝablono:Dok]]
+[[fa:الگو:توضیحات]]
+[[fr:Modèle:Documentation modèle]]
+[[he:תבנית:תיעוד]]
+[[hsb:Předłoha:Dokumentacija]]
+[[hu:Sablon:Sablondokumentáció]]
+[[ia:Patrono:Docpatrono]]
+[[id:Templat:Dokumentasi]]
+[[it:Template:Man]]
+[[ja:Template:Documentation]]
+[[ko:틀:틀 설명문서]]
+[[no:mal:Dokumentasjon]]
+[[nl:Sjabloon:Sjabdoc]]
+[[pl:Szablon:Dokumentacja]]
+[[pt:Predefinição:Documentação]]
+[[ro:Format:Documentaţie]]
+[[ru:Шаблон:Doc]]
+[[sk:Šablóna:Dokumentácia]]
+[[sl:Predloga:Dokumentacija]]
+[[sr:Шаблон:Документација]]
+[[sq:Stampa:Dokumentacion]]
+[[stq:Foarloage:Dokumentation]]
+[[sv:Mall:Dokumentation]]
+[[tpi:Template:Template doc]]
+[[uk:Шаблон:Документація]]
+[[war:Template:Documentation]]
+[[zh:Template:Documentation]]
+</includeonly>
