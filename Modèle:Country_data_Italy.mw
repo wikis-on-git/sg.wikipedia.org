@@ -1,0 +1,30 @@
+{{ {{{1<noinclude>
+|country showdata
+</noinclude>}}}
+| alias           = Italùii
+| shortname alias = Italùii
+| flag alias      = Flag of Italy.svg
+| arms alias      = Italy-Emblem.svg
+| flag alias-old = Flag of Italy (1861-1946).svg
+| flag alias-1861 = Flag of Italy (1861-1946).svg
+| flag alias-1861-state = Flag of Italy (1861-1946) crowned.svg
+| flag alias-RSI = Flag of RSI.svg
+| countryname = {{{countryname|Italùii<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| genitive = Italùi
+| accusative = Italùi
+| isoKod = IT
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flag|Italy|old}}</nowiki> = {{flag|Italy|old}}
+* <nowiki>{{flag|Italy|1861}}</nowiki> = {{flag|Italy|1861}}
+* <nowiki>{{flag|Italy|1861-state}}</nowiki> = {{flag|Italy|1861-state}}
+* <nowiki>{{flag|Italy|RSI}}</nowiki> = {{flag|Italy|RSI}}
+
+
+
+
+</noinclude>
