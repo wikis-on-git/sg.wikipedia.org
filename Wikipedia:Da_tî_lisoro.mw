@@ -878,3 +878,18 @@ Thanks, <br />
 
 </div>
 <!-- EdwardsBot 0657 -->
+
+==VisualEditor coming to this wiki==
+Hello. Please excuse the English. I would be grateful if you can translate this message!
+
+VisualEditor is coming to this project on December 2, 2013. VisualEditor is software in development to allow people to edit pages in MediaWiki without needing to learn wikitext syntax (like typing <nowiki>[[</nowiki> to start a link). It is already available and in use on some Wikipedia projects. Please see [[:mw:Help:VisualEditor/FAQ]] for more information.
+
+When this software arrives, you will have the option to use it or to use the current wikitext editor. When you press “edit”, you will get the new VisualEditor software. To use the wikitext editor, you can press “edit source”. For more information about how to use VisualEditor, see [[:mw:Help:VisualEditor/User guide]].
+
+We hope that this software will be useful to people in your community, and we can really use your help to make it better! Please let us know if you find any problems. If you're willing and able, please [[:mw:Special:MyLanguage/How to report a bug|report the issue in bugzilla]] in the [https://bugzilla.wikimedia.org/enter_bug.cgi?product=VisualEditor&format=guided "VisualEditor" product]. If you would prefer not, please explain the issue you found on the [[mw:VisualEditor/Feedback|central feedback page]] on mediawiki.org. Once VisualEditor is made available, if there are any urgent problems, like an unexpected bug suddenly causing widespread severe problems, please e-mail James Forrester, the Product Manager, at jforrester@wikimedia.org for immediate attention.
+
+We would also appreciate help with translation with the pages about VisualEditor here and on MediaWiki.org, and its user interface. To translate the user interface, start by creating an account at [https://translatewiki.net/w/i.php?title=Special:UserLogin&returnto=Special%3AFirstSteps&type=on TranslateWiki]. Once your account request is approved, all you need to do is select your language from [https://translatewiki.net/w/i.php?title=Special%3AMessageGroupStats&x=D&group=ext-visualeditor#sortable:3=desc this list]. This will give you a list of individual lines and paragraphs. The English original will be on one side, with the option to “edit” on the other. Pressing “edit” will open an edit window where you can work.
+
+The User Guide is another important document.  To translate this, simply go to [[:mw:Help:VisualEditor/User_guide|the MediaWiki.org page]], and select “translate this page”.  Your language should be available from the drop-down menu on the right.  If you want to help with translations and would like to talk about how, please leave a message for me on my talk page.
+
+Thank you, and happy editing! --[[Utilisateur:Mdennis (WMF)|Mdennis (WMF)]] ([[Discussion utilisateur:Mdennis (WMF)|discussion]]) 19 Nabändüru 2013 à 19:35 (UTC)
