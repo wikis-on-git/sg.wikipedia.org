@@ -975,3 +975,22 @@ The Catalan-speaking world... Want to find out more? From March 16 to April 15 w
 We look forward to seeing you!
 
 [[:m:Amical Wikimedia|Amical Wikimedia]]--[[Utilisateur:Kippelboy|Kippelboy]] ([[Discussion utilisateur:Kippelboy|discussion]]) 16 Mbängü 2014 à 06:01 (UTC)
+
+== Changes to the default site typography coming soon ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr"> 
+This week, the typography on Wikimedia sites will be updated for all readers and editors who use the default "Vector" skin. This change will involve new serif fonts for some headings, small tweaks to body content fonts, text size, text color, and spacing between elements. The schedule is: 
+
+* '''April 1st''': non-Wikipedia projects will see this change live
+* '''April 3rd''': Wikipedias will see this change live
+
+This change is very similar to the "Typography Update" Beta Feature that has been available on Wikimedia projects since November 2013. After several rounds of testing and with feedback from the community, this Beta Feature will be disabled and successful aspects enabled in the default site appearance. Users who are logged in may still choose to use another skin, or alter their [[Special:MyPage/vector.css|personal CSS]], if they prefer a different appearance. Local [[MediaWiki:Common.css|common CSS]] styles will also apply as normal, for issues with local styles and scripts that impact all users. 
+
+For more information:
+* [[mw:Typography refresh|Summary of changes and FAQ]]
+* [[mw:Talk:Typography refresh|Discussion page]] for feedback or questions
+* [https://blog.wikimedia.org/2014/03/27/typography-refresh/ Post] on blog.wikimedia.org
+
+-- [[m:User:Steven (WMF)|Steven Walling]] (Product Manager) on behalf of the Wikimedia Foundation's [[mw:Design|User Experience Design]] team
+</div>
+<!-- Message envoyé par User:Steven (WMF)@metawiki en utilisant la liste à http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=7990801 -->
