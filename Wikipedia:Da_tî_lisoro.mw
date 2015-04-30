@@ -1536,3 +1536,17 @@ Coordinator, [[m:Special:MyLanguage/Wikimedia Foundation elections 2015/Committe
 
 ''Posted by the [[m:User:MediaWiki message delivery|MediaWiki message delivery]] on behalf of the [[m:Special:MyLanguage/Wikimedia Foundation elections 2015/Committee|2015 Wikimedia Foundation Elections Committee]], 05:03, 21 April 2015 (UTC) • [[m:Special:MyLanguage/Wikimedia Foundation elections 2015/MassMessages/Accepting nominations|Translate]] • [[m:Talk:Wikimedia Foundation elections 2015|Get help]]
 <!-- Message envoyé par User:Varnent@metawiki en utilisant la liste à http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=11918510 -->
+
+== Content Translation now available as a beta feature on this Wikipedia ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+Hello, we enabled [[mw:Content_translation|Content Translation]] today as a beta feature on this Wikipedia. Content Translation is a tool that will help editors quickly create new articles by translating from a Wikipedia page in another language. The tool is currently in use in over [[mw:Content_translation/Languages#Available_languages|40 Wikipedias]] as a beta feature. To start translating, you will have to enable the beta feature and go to [[Special:ContentTranslation]] or to your contributions page and create a new translation by selecting the source language, the article name you wish to translate and target language i.e. the language of the new article you are creating. If the article already exists then a warning will be displayed. After you translate the article, you can publish it directly as a new page on the Wikipedia. In case the article gets created by another user while you were translating, you will see an option to save the newly published translation under your user namespace. The number of published pages can be seen on the [[Special:CXStats|Content Translation stats page]].
+
+Since, this is the first time we have installed the tool on this Wikipedia, there are chances that there may be some problems or service disruptions which we are not yet aware of. We will be monitoring the usage to check for any failures or issues, but please do let us know on the [[:mw:Talk:Content_translation|Content Translation talk page]] or through [https://phabricator.wikimedia.org/T97540 Phabricator] if you spot any problems that prevent you from using the tool. For more information, please read [[:mw:Content_translation#Try_the_tool|about how to use the tool]]. You can also view a [https://upload.wikimedia.org/wikipedia/commons/e/ee/Content_Translation_Screencast_%28English%29.webm short screencast] on how to use Content Translation. My apologies for writing this announcement only in English. Please feel free to translate this message. Thank you. [[m:User_talk:Runab WMF|Runa Bhattacharjee]] 30 Ngubë 2015 à 15:49 (UTC)
+
+
+Message sent using [[m:Global_message_delivery]]
+
+</div>
+<!-- Message envoyé par User:Runab WMF@metawiki en utilisant la liste à http://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/CX/30_April_2015&oldid=12073755 -->
