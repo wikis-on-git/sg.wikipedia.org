@@ -1,0 +1,63 @@
+{{side box
+| position = {{{position|}}}
+| image    = 
+  {{#switch: {{{image|}}}
+  | none =    <!-- "image=none", do nothing -->
+  |      =    <!-- No image fed, select an image -->
+    [[Image:{{#switch: {{lc: {{{project|}}} }}
+    | commons                = Commons-logo.svg
+    | meta|metawiki|m        = Wikimedia Community Logo.svg
+    | wikibooks|wbk|wb|b     = Wikibooks-logo-en-noslogan.svg
+    | wikiquote|quote|wqt|q  = Wikiquote-logo-en.svg
+    | wikipedia|wp|w         = Wikipedia-logo-en.png
+    | wikisource|source|ws|s = Wikisource-logo.svg
+    | wiktionary|wkt|wdy|d   = Wiki logo.svg
+    | wikinews|news|wnw|n    = Wikinews-logo.svg
+    | wikispecies|species    = Wikispecies-logo.svg
+    | wikiversity|wvy|v      = Wikiversity-logo.svg
+    | mediawiki|mw           = Mediawiki.png
+    | #default               = Wikimedia-logo.svg
+    }}|40x40px|link={{sec link image
+    | {{#switch: {{lc: {{{project|}}} }}
+      | commons                = commons
+      | meta|metawiki|m        = meta
+      | wikibooks|wbk|wb|b     = b
+      | wikiquote|quote|wqt|q  = q
+      | wikipedia|wp|w         = w
+      | wikisource|source|ws|s = s
+      | wiktionary|wkt|wdy|d   = wikt
+      | wikinews|news|wnw|n    = n
+      | wikispecies|species    = species
+      | wikiversity|wvy|v      = v
+      | mediawiki|mw           = mw
+      | #default               =    <!--Just for demonstration-->
+      }}
+    | {{{1| Special:Search/{{PAGENAME}} }}}
+    | lang = {{{lang|}}}
+    }}| Search {{#switch: {{lc: {{{project}}} }}
+    | commons                = Wikimedia Commons
+    | meta|metawiki|m        = Meta
+    | wikibooks|wbk|wb|b     = Wikibooks
+    | wikiquote|quote|wqt|q  = Wikiquote
+    | wikipedia|wp|w         = Wikipedia
+    | wikisource|source|ws|s = Wikisource
+    | wiktionary|wkt|wdy|d   = Wiktionary
+    | wikinews|news|wnw|n    = Wikinews
+    | wikispecies|species    = Wikispecies
+    | wikiversity|wvy|v      = Wikiversity
+    | mediawiki|mw           = MediaWiki
+    | #default               = sister project
+    }}]]
+  | #default = {{{image|}}}
+  }}
+
+| text       = {{{text}}}
+| below      = {{{below|}}}
+| imageright = {{{imageright|}}}
+
+}}<noinclude>
+
+{{pp-template}}
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
