@@ -1,7 +1,7 @@
 <includeonly>[[Categoria:Template complessi|{{PAGENAME}}]]</includeonly>
 {| class="itwiki_template_toc" style="width:76%; margin: 0 auto 0.5em; padding-right: 0.5em; clear:both;"
 |-
-| style="text-align:center;padding: 0 5px;" | [[File:Transmission.png|80px|Avviso importante!]]
+| style="text-align:center;padding: 0 5px;" | [[File:Transmission icon (old).png|80px|Avviso importante!]]
 | Questo [[Aiuto:Template|template]] ha un [[codice sorgente]] piuttosto '''complesso''' e può richiedere buona conoscenza delle [[Aiuto:ParserFunctions|funzioni parser]]. 
 ----
 Per favore, ''tenta di modificarlo solo se sei certo di capirne la funzione '''e''' sei preparato a riparare ogni conseguente danno collaterale'' nel caso in cui i risultati fossero diversi da quanto avevi in mente. Tutti gli esperimenti devono essere prima condotti in una [{{fullurl:{{FULLPAGENAME}}/Sandbox|action=edit&preload={{FULLPAGENAMEE}}&editintro=Template:Template_complesso/editintro}} pagina di prova].
