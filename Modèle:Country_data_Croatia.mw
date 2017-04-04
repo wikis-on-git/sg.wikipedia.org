@@ -1,0 +1,19 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias           = Kroasïi
+| shortname alias = Kroasïi
+| flag alias      = Flag of Croatia.svg
+| flag alias-1941 = Flag of Croatia Ustasa.svg
+| arms alias      = Coat of arms of Croatia.svg
+| flag alias-1947 = Flag of the Socialist Republic of Croatia.svg
+| countryname = {{{countryname|Kroasïi<!-- MUST MATCH SUFFIX OF PAGENAME!! -->}}}
+| genitive = Kroasï
+| isoKod = HR
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+}}<noinclude>
+==Variants==
+* <nowiki>{{flag|Croatia|1941}}</nowiki> = {{flag|Croatia|1941}}
+* <nowiki>{{flag|Croatia|1947}}</nowiki> = {{flag|Croatia|1947}}
+</noinclude>
