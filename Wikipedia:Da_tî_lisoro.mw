@@ -3075,3 +3075,26 @@ On the [[m:Special:MyLanguage/Strategy/Wikimedia movement/2017/Participate|movem
 
 ''Posted by [[m:Special:MyLanguage/User:MediaWiki message delivery|MediaWiki message delivery]] on behalf of the [[m:Special:MyLanguage/Wikimedia Foundation|Wikimedia Foundation]] • [[m:Special:MyLanguage/Strategy/Wikimedia movement/2017/Updates/Cycle 2 discussions launch|{{int:please-translate}}]] • [[m:Talk:Strategy/Wikimedia movement/2017/Updates|Get help]]''</div> 16 Bêläwü 2017 à 21:08 (UTC)
 <!-- Message envoyé par User:GVarnum-WMF@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=Strategy/Wikimedia_movement/2017/Updates/Global_message_delivery&oldid=16773425 -->
+
+== New notification when a page is connected to Wikidata ==
+
+Hello all,
+
+''({{Int:Please-translate}})''
+
+The Wikidata development team is about to deploy a new feature on all Wikipedias. It is a new type of notification (via Echo, the notification system you see at the top right of your wiki when you are logged in), that will inform the creator of a page, when this page is connected to a Wikidata item.
+
+You may know that [[d:Wikidata:Main page|Wikidata]] provides a centralized system for all the interwikilinks. When a new page is created, it should be connected to the corresponding Wikidata item, by modifying this Wikidata item. With this new notification, editors creating pages will be informed when another editor connects this page to Wikidata.
+
+[[File:Screenshot Echo Wikibase notification.png]]
+
+This feature will be deployed on May 30th on all the Wikipedias, excepting English, French and German. This feature will be disable by default for existing editors, and enabled by default for new editors.
+
+This is the first step of the deployments, the Wikipedias and other Wikimedia projects will follow in the next months.
+
+If you have any question, suggestion, please let me know by pinging me. You can also follow and leave a comment [[phab:T142102|on the Phabricator ticket]].
+
+Thanks go to [[d:user:Matěj Suchánek|Matěj Suchánek]] who developed this feature! 
+
+{{Int:Feedback-thanks-title}} [[:d:User:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]] ([[:d:User talk:Lea Lacroix (WMDE)|talk]])
+<!-- Message envoyé par User:Lea Lacroix (WMDE)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/List_Wikipedias&oldid=16774958 -->
