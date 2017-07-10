@@ -3152,3 +3152,19 @@ Starting from today, you will be able to display Wikidata changes in both modes 
 <small>(wrong target page? you can [[m:User:Lea Lacroix (WMDE)/List Wikipedias|fix it here]])</small>
 </div>
 <!-- Message envoyé par User:Lea Lacroix (WMDE)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/List_Wikipedias&oldid=16777494 -->
+
+== Accessible editing buttons ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">The MediaWiki developers have been slowly improving the accessibility of the user interface.  The next step in this transition will change the appearance of some buttons and may break some outdated (non-updated or unmaintained) user scripts and gadgets.
+
+You can see and use the [https://www.mediawiki.org/wiki/Project:Sandbox?action=submit&ooui=0 old] and [https://www.mediawiki.org/wiki/Project:Sandbox?action=submit&ooui=1 new] versions now.  Most editors will only notice that some buttons are slightly larger and have different colors.
+
+<gallery mode="nolines" caption="Comparison of old and new styles" heights="240" widths="572">
+File:MediaWiki edit page buttons accessibility change 2017, before.png|Buttons before the change
+File:MediaWiki edit page buttons accessibility change 2017, after.png|Buttons after the change
+</gallery>
+
+However, this change also affects some user scripts and gadgets.  Unfortunately, some of them may not work well in the new system.  <mark>If you maintain any user scripts or gadgets that are used for editing, please see '''[[:mw:Contributors/Projects/Accessible editing buttons]]''' for information on how to test and fix your scripts.  Outdated scripts can be tested and fixed now.</mark>
+
+This change will probably reach this wiki on '''Tuesday, 18 July 2017'''.  Please leave a note at [[:mw:Talk:Contributors/Projects/Accessible editing buttons]] if you need help.</div> [[:m:User:Whatamidoing (WMF)|Whatamidoing (WMF)]] ([[User talk:Whatamidoing (WMF)|talk]]) 10 Lengua 2017 à 22:23 (UTC)
+<!-- Message envoyé par User:Quiddity (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery/Wikipedia&oldid=16980876 -->
