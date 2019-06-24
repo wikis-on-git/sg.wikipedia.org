@@ -3722,3 +3722,41 @@ Do better research and help expand the use of high quality references across Wik
 
 <div lang="en" dir="ltr" class="mw-content-ltr">The Wikimedia Foundation has published a [[m:Special:MyLanguage/Wikimedia_Foundation_Medium-term_plan_2019|Medium-Term Plan proposal]] covering the next 3–5 years. We want your feedback! Please leave all comments and questions, in any language, on [[m:Talk:Wikimedia_Foundation_Medium-term_plan_2019|the talk page]], by April 20. {{Int:Feedback-thanks-title}} [[m:User:Quiddity (WMF)|Quiddity (WMF)]] ([[m:User talk:Quiddity (WMF)|talk]]) 12 Ngubë 2019 à 17:35 (UTC)</div>
 <!-- Message envoyé par User:Quiddity (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=18998727 -->
+
+== Wikidata Bridge: edit Wikidata’s data from Wikipedia infoboxes ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+''Sorry for writing this message in English - feel free to help us translating it :)''
+
+Hello all,
+
+Many language versions of Wikipedia use the content of [[Wikidata]], the centralized knowledge base, to fill out the content of infoboxes. The data is stored in Wikidata and displayed, partially or completely, in the Wikipedia’s language, on the articles.
+This feature is used by many template editors, but brought several issues that were raised by communities in various places: not being able to edit the data directly from Wikipedia was one of them.
+
+This is the reason why the '''[[mw:Wikidata Bridge|Wikidata Bridge]]''' project started, with the goal of offering a way to Wikipedia editors to edit Wikidata’s data more easily. This will be achieved by an interface, connected to the infobox, that users can access directly from their local wiki. 
+
+The project is now at an early stage of development. A lot of [[mw:Wikidata_Bridge/Research|user research]] has been done, and will continue to be done through the different phases of the project. The next steps of [[mw:Wikidata_Bridge/Development|development]] will be achieved by the development team working at Wikimedia Deutschland, starting now until the end of 2019.
+
+In order to make sure that we’re building a tool that is answering editors’ needs, we’re using agile methods in our development process. We don’t start with a fixed idea of the tool we want to deliver: we will build it together with the editors, based on feedback loops that we will regularly organize. The first version will not necessarily have all of the features you want, but it will keep evolving.
+
+Here’s the planned timeline:
+* From June to August, we will build the setup and technical groundwork. 
+* From September to November 2019, we will develop the first version of the feature and publish a test system so you can try it and give feedback. 
+* Later on, we will test the feature on a few projects, in collaboration with the communities. 
+** We will first focus on early adopters communities who already implemented a shortcut from their infoboxes to edit Wikidata (for example Russian, Catalan, Basque Wikipedias)
+** but we also welcome also communities who [[mw:Wikidata_Bridge/Get_involved|volunteer to be part of the first test round]]. 
+** Then we will reach some of the big Wikipedias (French, German, English) in order to see if the project scales and to address their potentially different needs. 
+** Even later, we can consider enabling the feature on all the other projects. 
+In any case, no deployment or big change will be enforced on the projects without talking to the communities first, and helping the template builders to prepare for the changes they will have to do on the infoboxes’ code.
+
+If you want to get involved, there are several ways to help:
+* Read and help translating [[mw:Wikidata_Bridge|the documentation pages]]
+* Follow the [[mw:Wikidata_Bridge/Updates|updates]] and participate in [[mw:Topic:V1x2lxtu8rgi954a|the first feedback loop]]
+* Talk about it with your local community
+More ideas will be added [[mw:Wikidata_Bridge/Get_involved|on this page]] along the way
+
+If you have any questions for the development team, feel free to ask them [[mw:Talk:Wikidata_Bridge|on the main talk page]]. You can also ask under this message, but if you expect an answer from me, please make sure to ping me.
+
+Thanks for your attention, [[:d:User:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]] 24 Föndo 2019 à 13:03 (UTC)
+</div>
+<!-- Message envoyé par User:Lea Lacroix (WMDE)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/List_Wikipedias&oldid=19168539 -->
