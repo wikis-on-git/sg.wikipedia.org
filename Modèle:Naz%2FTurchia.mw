@@ -1,0 +1,5 @@
+<includeonly>{{ #switch: {{{1}}}
+| a = Flag of Turkey.svg
+| b = della&#32;
+| c = Turukïi
+}}</includeonly>
