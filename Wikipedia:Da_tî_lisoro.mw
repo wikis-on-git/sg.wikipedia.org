@@ -3058,7 +3058,7 @@ Thanks, [[user:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]]
 
 <div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
 :''[[m:Special:MyLanguage/Strategy/Wikimedia movement/2017/Updates/Cycle 2 discussions launch|Message is available for translation on Meta-Wiki]]''
-[[File:Wikimedia-logo.svg||{{#switch:{{CONTENTLANG}}|ar=left|he=left|right}}||150px]]
+[[File:Wikimedia-logo.svg|{{#switch:{{CONTENTLANG}}|ar=left|he=left|right}}|150px]]
 The Wikimedia movement strategy core team and working groups have completed reviewing the more than 1800 thematic statements we received from the first discussion. They have identified [[m:Special:MyLanguage/Strategy/Wikimedia movement/2017/Cycle 2|5 themes that were consistent across all the conversations]] - each with their own set of sub-themes. These are not the final themes, just an initial working draft of the core concepts.
 
 You are invited to [[m:Special:MyLanguage/Strategy/Wikimedia movement/2017/Participate|join the online and offline discussions taking place]] on these 5 themes. This round of discussions will take place between now and June 12th. You can discuss as many as you like; we ask you to participate in the ones that are most (or least) important to you.
