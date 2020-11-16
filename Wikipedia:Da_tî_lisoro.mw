@@ -4330,3 +4330,22 @@ Reminder: Please help to choose the name for the new Wikimedia wiki project - th
 {{Int:Feedback-thanks-title}} --[[m:User:Quiddity (WMF)|Quiddity (WMF)]]
 </div> 5 Nabändüru 2020 à 22:10 (UTC)
 <!-- Message envoyé par User:Quiddity (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=20564572 -->
+
+== Update to ICU Unicode library ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr"><div class="plainlinks">
+Starting on November 16, we will migrate the servers running the MediaWiki application servers to a new release of the ICU Unicode library ([[w:International Components for Unicode]]) (from version 57 to 63).
+
+This unblocks some future work on upgrading the servers to a new Operating System release and will also allow the use of improved internationalisation in the future (as wikis will then be able to use features introduced by the new ICU release such as new collation definitions, and allows us to use a more recent version of Unicode in MediaWiki).
+
+This migration will cause some unavoidable temporary user-visible impact: The sorting of some category pages will be distorted – all pages which have been updated with the new software version will use the new sorting while untouched pages still use the old sorting.
+As such, we need to run a maintenance script to update the sorting for old entries.
+
+The distortions may last from a few hours (on medium-sized wikis), up to a day (on the largest wikis), and a few days on English Wikipedia. The start-time will depend upon when the migration script reaches each wiki.
+
+[https://phabricator.wikimedia.org/T264991#6609917 This affects 149 wikis] (including eight out of the ten biggest Wikipedias). The detailed list and the task for the technical implementation is at [[phab:T264991|T264991]].
+
+Thank you.
+</div>
+</div> <span dir="ltr">[[user:Trizek (WMF)|Trizek (WMF)]]</span> 16 Nabändüru 2020 à 14:53 (UTC)
+<!-- Message envoyé par User:Trizek (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:Trizek_(WMF)/sandbox/temp_MassMessage_list&oldid=20669657 -->
