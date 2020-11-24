@@ -4359,3 +4359,23 @@ L’équipe Technologies communautaires se concentre sur les outils pour les con
 
 [[m:user:SGrabarczuk (WMF)|SGrabarczuk (WMF)]] 20 Nabändüru 2020 à 05:02 (UTC)
 <!-- Message envoyé par User:SGrabarczuk (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:SGrabarczuk_(WMF)/sandbox/MM/Francophones&oldid=20689614 -->
+
+== Global bot policy proposal: invitation to a Meta discussion ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+{{int:hello}}!
+
+I apologize for sending a message in English. {{int:please-translate}}. According to [[:m:Bot_policy/Implementation#Where_it_is_policy|the list]], your wiki project currently is opted in to the [[:m:Bot_policy#Global_bots|global bot policy]]. Under this policy, bots that fix double redirects or maintain interwiki links are allowed to operate under a global bot flag that is assigned directly by the stewards.
+
+As the Wikimedia projects developed, the need for the current global bot policy decreased, and in the past years, no bots were appointed via that policy. That is mainly given Wikidata were estabilished in 2013, and it is no longer necessary to have dozens of bots that maintain interwiki links.
+
+A [[:m:Requests for comment/Refine global bot policy|proposal]] was made at Meta-Wiki, which proposes that the stewards will be authorized to determine whether an uncontroversial task may be assigned a global bot flag. The stewards already assign permissions that are more impactful on many wikis, namely, [[:m:GS|global sysops]] and [[:m:GR|global renamers]], and I do not think that trust should be an issue. The stewards will assign the permission only to time-proven bots that are already approved at a number of projects, like [[:m:User:ListeriaBot|ListeriaBot]].
+
+By this message, I would like to invite you to comment [[:m:Requests for comment/Refine global bot policy|in the global RFC]], to voice your opinion about this matter.
+
+Thank you for your time.
+
+Best regards,<br />
+[[User:Martin Urbanec|Martin Urbanec]] ([[:m:User talk:Martin Urbanec|{{int:Talkpagelinktext}}]]) 24 Nabändüru 2020 à 11:49 (UTC)
+</div>
+<!-- Message envoyé par User:Martin Urbanec@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:Martin_Urbanec/sand&oldid=20709229 -->
