@@ -4379,3 +4379,22 @@ Best regards,<br />
 [[User:Martin Urbanec|Martin Urbanec]] ([[:m:User talk:Martin Urbanec|{{int:Talkpagelinktext}}]]) 24 Nabändüru 2020 à 11:49 (UTC)
 </div>
 <!-- Message envoyé par User:Martin Urbanec@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:Martin_Urbanec/sand&oldid=20709229 -->
+
+== Wikidata descriptions changes to be included more often in Recent Changes and Watchlist ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+''Sorry for sending this message in English. Translations are available on [[m:Special:MyLanguage/Announcements/Announcement Wikidata descriptions in watchlist|this page]]. Feel free to translate it in more languages!''
+
+As you may know, you can include changes coming from Wikidata in your Watchlist and Recent Changes ([[Special:Preferences#mw-prefsection-watchlist|in your preferences]]). Until now, this feature didn’t always include changes made on Wikidata descriptions due to the way Wikidata tracks the data used in a given article.
+
+Starting on December 3rd, the Watchlist and Recent Changes will include changes on the descriptions of Wikidata Items that are used in the pages that you watch. This will only include descriptions in the language of your wiki to make sure that you’re only seeing changes that are relevant to your wiki.
+
+This improvement was requested by many users from different projects. We hope that it can help you monitor the changes on Wikidata descriptions that affect your wiki and participate in the effort of improving the data quality on Wikidata for all Wikimedia wikis and beyond.
+
+Note: if you didn’t use the Wikidata watchlist integration feature for a long time, feel free to give it another chance! The feature has been improved since the beginning and the content it displays is more precise and useful than at the beginning of the feature in 2015.
+
+If you encounter any issue or want to provide feedback, feel free to use [[Phab:T191831|this Phabricator ticket]]. Thanks!
+
+[[:d:User:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]] 30 Nabändüru 2020 à 14:39 (UTC)
+</div>
+<!-- Message envoyé par User:Lea Lacroix (WMDE)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/wikis&oldid=20728482 -->
