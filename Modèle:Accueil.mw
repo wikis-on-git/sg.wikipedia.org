@@ -11,12 +11,12 @@
 <br>
 
 </div>
-<center>[[Image:Flag of the Central African Republic.svg|50px]] [[Image:Satellite map of the Central African Republic.png|200px]]  [[Image:Flag of the Central African Republic.svg|50px]]</center>
+<div class="center">[[Image:Flag of the Central African Republic.svg|50px]] [[Image:Satellite map of the Central African Republic.png|200px]]  [[Image:Flag of the Central African Republic.svg|50px]]</div>
 </div>
 
 <br>
 
-<center>
+<div class="center">
 
 {| width="60%" style="border:1px solid black"
 |
@@ -26,7 +26,7 @@ width=45
 </inputbox>
 |}
 
-</center>
+</div>
 
 <br>
 
