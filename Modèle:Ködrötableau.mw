@@ -1,0 +1,49 @@
+{| border=1 align=right cellpadding=4 cellspacing=0 width=300 style="margin: 0 0 1em 1em; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 95%;"
+|+<big><big>'''{{{Land}}}'''</big></big>
+|-
+| style="background:#efefef;" align="center" colspan=2 |
+{| border="0" cellpadding="2" cellspacing="0"
+|-
+| align="center" width="140px" | [[Image:{{{FändelFichier}}}|125px]]
+| align="center" width="140px" | [[Image:{{{WopeFichier}}}|125px]]
+|-
+| align="center" width="140px" | ([[{{{VuWou}}} Fändel|Detailer]])
+| align="center" width="140px" | ([[{{{VuWou}}} Wopen|Detailer]])
+|}
+|-
+| align="center" colspan=2 style="border-bottom:3px solid gray;" | <span style="font-size:small;">''National Devise: {{{Devise}}}''</span>
+|-
+| align="center" colspan=2 | [[Image:{{{KoartFichier}}}|250px]]
+|-
+| '''[[Âyângâ tî letä ayeke]]''': || {{{Âyângâ tî letä ayeke}}}
+|-
+| '''Tohgbata nî ayeke''':<br>&nbsp;- Wuhngo tî âzo nî ayeke:
+|-
+| '''{{{LandeschefTitel}}}''': || {{{Landeschef}}}
+|-
+| '''{{{RegierungschefTitel}}}''': || {{{Regierungschef}}}
+|-
+| '''Fläch''':<br>&nbsp;- Total: <br>&nbsp;- % Waasser:
+| [[Lëscht vun de Länner no Fläch|Op {{{FlächPlaz}}}. Plaz]] <br> {{{Fläch}}} [[km&sup2;]] <br> {{{Waasser}}}
+|-
+| width="120" | '''Bevëlkerung''':<br>&nbsp;- Total: <br>&nbsp;- Bevëlkerungsdicht:
+| [[Lëscht vun de Länner no Bevëlkerung|Op {{{BevëlkerungPlaz}}}. Plaz]]<br>{{{Bevëlkerung}}}<br>{{{BevëlkerungsDicht}}}/km&sup2;
+|-
+| '''Onofhängegkeet''':
+| {{{Onofhängegkeet}}}
+|-
+| '''Nationalfeierdag''': || {{{Nationalfeierdag}}}
+|-
+| '''[[Relioun]]''': || {{{Relioun(en)}}}
+|-
+| '''[[Währung]]''': || {{{Währung}}}
+|-
+| '''Zäitzon''': || [[UTC]]{{{Zäitzon(en)}}}
+|-
+| '''[[Nationalhymn]]''': || ''{{{Nationalhymn}}}''
+|-
+| '''[[Top-level domain|Internet TLD]]''': || .{{{Internet TLD}}}
+|-
+| '''International Virwahl''':
+| {{{Tel}}}
+|}
