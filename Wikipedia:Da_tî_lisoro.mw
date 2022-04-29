@@ -5564,3 +5564,23 @@ Lors de cette réunion, la [[foundation:Friendly_space_policy|Politique des Espa
 
 Nous espérons vous voir ! [[User:SGrabarczuk (WMF)|SGrabarczuk (WMF)]] ([[User talk:SGrabarczuk (WMF)|discuter]]) 27 Ngubë 2022 à 13:12 (UTC)
 <!-- Message envoyé par User:SGrabarczuk (WMF)@metawiki en utilisant la liste sur https://meta.wikimedia.org/w/index.php?title=User:SGrabarczuk_(WMF)/sandbox/MM/Francophones&oldid=20689614 -->
+
+== Coming soon: Improvements for templates ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<!--T:11-->
+[[File:Overview of changes in the VisualEditor template dialog by WMDE Technical Wishes.webm|thumb|Fundamental changes in the template dialog.]]
+Hello, more changes around templates are coming to your wiki soon:
+
+The [[mw:Special:MyLanguage/Help:VisualEditor/User guide#Editing templates|'''template dialog''' in VisualEditor]] and in the [[mw:Special:MyLanguage/2017 wikitext editor|2017 Wikitext Editor]] (beta) will be '''improved fundamentally''': 
+This should help users understand better what the template expects, how to navigate the template, and how to add parameters. 
+* [[metawiki:WMDE Technical Wishes/VisualEditor template dialog improvements|project page]], [[metawiki:Talk:WMDE Technical Wishes/VisualEditor template dialog improvements|talk page]]
+
+In '''syntax highlighting''' ([[mw:Special:MyLanguage/Extension:CodeMirror|CodeMirror]] extension), you can activate a '''colorblind-friendly''' color scheme with a user setting. 
+* [[metawiki:WMDE Technical Wishes/Improved Color Scheme of Syntax Highlighting#Color-blind_mode|project page]], [[metawiki:Talk:WMDE Technical Wishes/Improved Color Scheme of Syntax Highlighting|talk page]]
+
+Deployment is planned for May 10. This is the last set of improvements from [[m:WMDE Technical Wishes|WMDE Technical Wishes']] focus area “[[m:WMDE Technical Wishes/Templates|Templates]]”. 
+
+We would love to hear your feedback on our talk pages!
+</div> -- [[m:User:Johanna Strodt (WMDE)|Johanna Strodt (WMDE)]] 29 Ngubë 2022 à 11:14 (UTC)
+<!-- Message envoyé par User:Johanna Strodt (WMDE)@metawiki en utilisant la liste sur https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_all_village_pumps&oldid=23222263 -->
